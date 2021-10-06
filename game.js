@@ -33,7 +33,7 @@ $(".btn").on("click", handler);
 
 // function for playing sounds
 function playSound(name) {
-  var sounder = new Audio("/Users/Ahmed/Desktop/web development/Simon Game Challenge/sounds/" + name + ".mp3");
+  var sounder = new Audio("sounds/" + name + ".mp3");
   sounder.play();
 
 }
